@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+.content{
+  display: flex;
+  margin: 100px 50px 50px 50px;
+}
+.area__9x9{
+  width: 156px;
+  border: 1px solid black;
+  margin: 0 auto ;
+
+}
+
+.cage{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid red;
+  cursor: pointer;
+  vertical-align: middle;
+  transition:background .1s ;
+
+}
+.cage:hover{
+  background-color: aquamarine;
+}
